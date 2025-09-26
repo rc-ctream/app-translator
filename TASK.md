@@ -16,7 +16,7 @@ The app should **listen continuously**, **transcribe speech live**, and once a n
    - When the speaker makes a **natural pause** (end of utterance), the transcription is finalized as a segment.  
 
 2. **Translation (AI API)**  
-   - Each finalized segment is sent to a **real translation API** (DeepL, Google Translate API, or OpenAI).  
+   - Each finalized segment is sent to a **real translation API** (DeepL, Google Translate API,OpenAI or some of individual choice).  
    - Only finalized segments should be translated (not the interim words).  
    - The translation is displayed directly under the original text.  
 
